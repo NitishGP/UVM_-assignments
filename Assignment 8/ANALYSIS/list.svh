@@ -1,0 +1,12 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "apb_config.sv"
+`include "apb_tx.sv"
+`include "apb_consumer.sv"
+`include "apb_producer.sv"
+`include "apb_subscriber.sv"
+`include "apb_env.sv"
+`include "test_lib.sv"
+`include "top.sv"
+

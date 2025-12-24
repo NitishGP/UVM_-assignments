@@ -1,0 +1,16 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "sample_common.sv"
+`include "sample_interface.sv"
+`include "sample_tx.sv"
+`include "sample_seq.sv"
+`include "sample_sqr.sv"
+`include "sample_drv.sv"
+`include "sample_mon.sv"
+`include "sample_cov.sv"
+`include "sample_agent.sv"
+`include "sample_sbd.sv"
+`include "sample_env.sv"
+`include "test_lib.sv"
+`include "top.sv"

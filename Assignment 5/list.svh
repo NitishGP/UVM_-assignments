@@ -1,0 +1,17 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "../agent/ahb_tx.sv"
+`include "../agent/ahb_base_sequence.sv"
+`include "../top/ahb_intf.sv"
+//`include "../rtl/ahb_dut.v"
+`include "../agent/ahb_sequencer.sv"
+`include "../agent/ahb_driver.sv"
+`include "../agent/ahb_monitor.sv"
+`include "../agent/ahb_coverage.sv"
+`include "../agent/ahb_agent.sv"
+`include "../top/ahb_producer.sv"
+`include "../top/ahb_consumer.sv"
+`include "../top/ahb_env.sv"
+`include "../top/test_lib.sv"
+`include "../top/top.sv"
